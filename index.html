@@ -1,1 +1,115 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Benjamin Nguyen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <div id="title">Benjamin Nguyen</div><br>
+
+        <div id="links">
+        <a href="#skills">tutoring classes</a>
+        <a href="#work" style="margin:0px 60px;">projects</a>
+        <a href="#contact">contact</a>
+        </div>
+    </div>
+
+    
+    <div id="middle" style="text-align: center;">
+        
+            <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s; margin: auto" >
+                Robotics enthousiast and <br>
+                rapid prototyping expert.<br>
+                <button class="btn_one" onclick="window.location.href = '#skills';">Check me out!</button>
+            </div>
+        
+    </div>
+   
+
+    <div id="portfolio">
+            <div id="biography">
+                <h1>Who am I?</h1>   
+                <div>
+                    <p style="line-height: 1.2em">
+                        I'm a born-and-bred Silicon Valley robotics enthousiast who loves to attend hackathons in and around the bay area while also teaching
+                        students about the endless possibilities of robotics. I attended Amador Valley High and have plenty of familiarity with the teaching
+                        environment and subject matter of the district. I also teach classes to help up and coming middle schoolers and high schoolers
+                        the basics of robotics at an entry level for further pursuit. 
+                    </p>               
+                </div> 
+            </div>
+
+             <div id="skills">
+                 <h1>Tutoring Classes</h1>   
+                 <div>
+                        <p>
+                            Please check out my Arduino and tutoring classes below: <br>
+                            <p style="padding-right: 5px"><a href="#skills" style="color: #b30000; text-decoration: none; font-size: 24px; font-family: 'Courier New', Courier, monospace;">Arduino Classes</a></p>
+                            <p style="padding-right: 5px"><a href="#skills" style="color: #b30000; text-decoration: none; font-size: 24px; font-family: 'Courier New', Courier, monospace;">Middle School Tutoring</a></p>
+                            <p style="padding-right: 5px"><a href="#skills" style="color: #b30000; text-decoration: none; font-size: 24px; font-family: 'Courier New', Courier, monospace;">High School Tutoring</a></p>
+                            <p style="padding-right: 5px"><a href="#skills" style="color: #b30000; text-decoration: none; font-size: 24px; font-family: 'Courier New', Courier, monospace;">College Counseling</a></p>
+                        </p>
+                 </div> 
+             </div>
+         
+            <div id="work">
+                 <h1>Robotics Projects</h1>
+
+                <div class="project">
+                 <h2>Fireflight</h2>
+                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.</div>
+                 <button class="btn_three">see article</button>
+                 <button class="btn_one">visit project</button>
+                 <button class="btn_two">code</button>
+                </div>
+
+                <div class="project">
+                 <h2>project title 2</h2>
+                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, 
+                     id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. 
+                     Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.Lorem ipsum dolor sit amet, 
+                     consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, 
+                     condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. 
+                     Curabitur porta molestie vulputate.
+                 </div>
+                 <button class="btn_one">visit project</button>
+                 <button class="btn_two">code</button>
+                </div>
+
+            </div>
+         
+              <div id="contact">
+                 <h1>Contact me</h1> 
+                 <form>
+                     <input type="text" placeholder="name" required>
+                     <input type="email" placeholder="email" required><br>
+                     <textarea placeholder="your message" required rows="5"></textarea><br>
+                     <button class="btn_one">send</button>
+                 </form> 
+                 <div id="details">
+                    <a class="btn_social"><i class="fas fa-phone"></i></a>
+                    <a class="btn_social"><i class="fas fa-at"></i></a>
+                    <a class="btn_social"><i class="fab fa-twitter"></i></a>
+                    <a class="btn_social"><i class="fab fa-dribbble"></i></a>
+                 </div>   
+             </div>
+    </div>
+    <div id="footer">
+        Benjamin Nguyen <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
